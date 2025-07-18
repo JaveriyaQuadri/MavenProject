@@ -10,7 +10,7 @@ public class PalindromeTest
 	public void testApp()
 	{
 		Hello h = new Hello();
-		String expected = "aba";
+		String expected = "abc";
 		String actual = h.palindrome(expected);
 		
 		Assert.assertEquals(expected, actual);
